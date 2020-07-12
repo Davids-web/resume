@@ -1,5 +1,28 @@
 .main{
-	border: 2px red;
-	wi
+	border: 2px solid red;
+	width: auto;
+	height: auto;
+	display: flex;
 
+}
+.left{
+	width: 400px;
+	height: auto;
+	text-align: center;
+	border: 2px solid orange;
+	margin: 10px 10px 10px 10px;
+	padding-top: 20px;
+}
+.right{
+	border: 2px solid orange;
+	width: 900px;
+	height: auto;
+	text-align: left;
+	margin: 10px 10px 10px 10px;
+	padding-left: 20px;
+}
+#pic{
+	width: 200px;
+	height: 250px;
+	border-radius: 110px;
 }
